@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itmAnasayfa"
+        android:icon="@drawable/icon_anasayfa"
+        android:title="Anasayfa"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/itemKategoriler"
+        android:icon="@drawable/icon_kategoriler"
+        android:title="Kategoriler"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/itemFavori"
+        android:icon="@drawable/icon_favoriler"
+        android:title="Favorilerim"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/itemSepet"
+        android:icon="@drawable/icon_sepet"
+        android:title="Sepetim"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/itemHesab"
+        android:icon="@drawable/icon_hesap"
+        android:title="Hesabım"
+        app:showAsAction="withText" />
+</menu>
